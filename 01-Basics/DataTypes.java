@@ -1,6 +1,7 @@
-public class PrimitiveDataTypes {
+public class DataTypes {
     public static void main(String[] args) {
         
+         // Primitive data types
         byte theByte = -111;
         short theShort = 28899;
         int age = 19;
@@ -10,6 +11,9 @@ public class PrimitiveDataTypes {
         boolean foodie = true;
         char favouriteLetter = 'P';
 
+        // Reference data type
+        String name = "Pooja";
+
         System.out.println("Byte: " + theByte);
         System.out.println("Short: " + theShort);
         System.out.println("Age: " + age);
@@ -18,5 +22,7 @@ public class PrimitiveDataTypes {
         System.out.println("Double Pie: " + doublePie);
         System.out.println("Foodie: " + foodie);
         System.out.println("Favourite Letter: " + favouriteLetter);
+         System.out.println("Name: " + name);
+        
 }
 }
