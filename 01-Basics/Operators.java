@@ -32,8 +32,8 @@ public class Operators {
         
         System.out.println("Ternary Operator:");
         int age = 18;
-        String message = age>=18 ? "You are an adult." : "You are not an adult.";
-        System.out.println(message);
+        String result = age>=18 ? "You are an adult." : "You are not an adult.";
+        System.out.println(result);
     }
     
 }
