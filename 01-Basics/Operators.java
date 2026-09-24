@@ -30,6 +30,10 @@ public class Operators {
         System.out.println("b * 2 = " + (b*=2));
         System.out.println("b = "+ b +"\nb - 2 = " + (b-=2));
         
+        System.out.println("Ternary Operator:");
+        int age = 18;
+        String message = age>=18 ? "You are an adult." : "You are not an adult.";
+        System.out.println(message);
     }
     
 }
